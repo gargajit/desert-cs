@@ -1,28 +1,26 @@
 -- import: fastn
 -- import: fastn/processors as pr
--- import: fifthtry.github.io/color-doc/assets
--- import: fifthtry.github.io/color-doc/colors
--- import: fifthtry.github.io/color-doc/components as cp
--- import: fifthtry.github.io/footer
+-- import: gargajit.github.io/desert-cs/assets
+-- import: gargajit.github.io/desert-cs/colors
+-- import: fastn-community.github.io/color-doc/components as cp
 -- import: fastn-community.github.io/inter-typography as typo
 
 -- string figma-json:
 $processor$: pr.figma-cs-token
-;; **** replace below $ftd.default-colors with $main and remove this line ****
-variable: $ftd.default-colors
-name: default-colors
+variable: $main
+name: desert-cs
 
 -- end: figma-json
 
-;; **** replace below $ftd.default-colors with $main and remove this line ****
+
 -- ftd.color-scheme colors-data: $main
 
 
 
 -- package: THEME
-name: `<color scheme name>`
+name: desert-cs
 logo: $assets.files.static.fastn-logo.svg
-subtitle: Adding warmth and energy to your designs with the `<add color scheme name here>` Color Scheme
+subtitle: Adding warmth and energy to your designs with the `desert-cs` Color Scheme
 colors: $colors-data
 
 
@@ -144,7 +142,7 @@ copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
 -- end: cp.components-pallete
 
 -- color-scheme: 
-tagline: Adding warmth and energy to your designs with the `<add color scheme name here>` Color Scheme
+tagline: Adding warmth and energy to your designs with the `desert-cs` Color Scheme
 
 -- color-scheme.rightbar:
 
@@ -192,11 +190,11 @@ link: https://fastn.com/figma-to-fastn-cs/
 
 -- color-scheme.body:
 
-The colours we use in our designs can have a significant impact on the mood and
-feelings they inspire. The perfect colour palette may take your design to the
-next level, whether you're creating a website, app, or anything else. The `<add
-color scheme name here>` colour scheme is ideal for designs that aim to portray
-strength, warmth, and growth.
+Introducing a stunning new color-scheme inspired by one of the most 
+unforgiving and captivating landscapes on Earth - the desert. This minimalist 
+yet impactful design captures the essence of the desert's warm earthy tones, 
+sandy beige hues, and striking pops of deep red and burnt orange, making it 
+the perfect choice for creating a bold and exotic aesthetic in any space.
 
 -- cb.code: Figma tokens json
 lang: json
@@ -220,23 +218,23 @@ custom colour scheme. To apply a colour scheme package on top of your package,
 you’ll need to import it into one of the module. 
 
 For example, let’s say you’re using the page component from `doc-site` package
-and want to apply the <add color scheme name here> scheme package on top of it.
-You first create a new module, let’s say my-ds.ftd. Then you import <add color
-scheme name here> package module and then create a new component called page
+and want to apply the desert-cs scheme package on top of it.
+You first create a new module, let’s say my-ds.ftd. Then you import desert-cs 
+package module and then create a new component called page
 there. 
 
 Here’s what your my-ds.ftd module and FASTN.ftd import would look like:
 
--- cb.code: Add `<add color scheme name here>` as dependency into FASTN.ftd
+-- cb.code: Add `desert-cs` as dependency into FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: `<add color scheme name here>`
+\-- fastn.dependency: desert-cs
 
 -- cb.code: my-ds.ftd module
 lang: ftd
 download: my-ds.ftd
 
-\-- import: `<add color scheme name here>` as my-cs
+\-- import: gargajit.github.io/desert-cs as my-cs
 \-- import: fifthtry.github.io/doc-site as ds
 
 \-- component page: 
@@ -620,11 +618,6 @@ children: $package.package-wrap
 
 -- cp.dms:
 
--- footer.fastn-footer:
-copyright: Copyright © 2023 - [FifthTry](https://www.fifthtry.com/)
-site-logo: https://fastn.com/-/fastn.io/images/fastn-dark.svg
-powered-by-text: Powered by
-powered-by-link: https://fastn.io/
 
 -- end: ftd.column
 
