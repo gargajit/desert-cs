@@ -1,0 +1,10 @@
+-- import: fastn
+
+-- fastn.package: fifthtry.github.io/sailing-shark-cs
+download-base-url: https://raw.githubusercontent.com/fifthtry/sailing-shark-cs/main
+
+-- fastn.dependency: fifthtry.github.io/color-doc
+
+-- fastn.dependency: fifthtry.github.io/doc-site as ds
+
+-- fastn.auto-import: ds

@@ -1,0 +1,98 @@
+-- import: fifthtry.github.io/color-doc/color-ui as cu
+-- import: fastn
+-- import: fastn/processors as pr
+-- import: fifthtry.github.io/sailing-shark-cs/colors as colors
+-- import: fifthtry.github.io/color-doc as cd
+
+
+-- string figma-json:
+$processor$: pr.figma-cs-token
+variable: $main
+name: cs
+
+
+-- cd.color-display-one:
+colors: $main
+minimize: true
+figma-json: $figma-json
+
+
+
+
+
+-- component color-display:
+ftd.color-scheme color:
+optional boolean minimize:
+
+-- ftd.row:
+width: fill-container
+
+-- all-color-display:
+color: $color-display.color
+minimize: $color-display.minimize
+
+-- end: ftd.row
+
+-- end: color-display
+
+
+
+
+
+
+
+
+
+
+-- component all-color-display:
+ftd.color-scheme color:
+optional boolean minimize: 
+
+-- ftd.column:
+background.solid: $all-color-display.color.background.base
+width: fill-container
+
+-- ftd.row:
+width:  fill-container
+
+-- cu.color-ui:
+color: $all-color-display.color
+minimize: $all-color-display.minimize
+
+-- end: ftd.row
+
+-- ftd.row:
+width:  fill-container
+
+-- cd.color-display-one:
+color: $all-color-display.color
+minimize: true
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: all-color-display
+
+
+
+
+
+-- ftd.color-scheme main:
+background: $colors.background-
+border: $colors.border-
+border-strong: $colors.border-strong-
+text: $colors.text-
+text-strong: $colors.text-strong-
+shadow: $colors.shadow-
+scrim: $colors.scrim-
+cta-primary: $colors.cta-primary-
+cta-secondary: $colors.cta-secondary-
+cta-tertiary: $colors.cta-tertiary-
+cta-danger: $colors.cta-danger-
+accent: $colors.accent-
+error: $colors.error-btb-
+success: $colors.success-btb-
+info: $colors.info-btb-
+warning: $colors.warning-btb-
+custom: $colors.custom-
