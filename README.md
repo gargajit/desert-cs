@@ -1,43 +1,5 @@
-# Welcome to your [FASTN site](https://fastn.io/)
+**Desert CS**
 
-FASTN Blank Package Template Repo
+Introducing a stunning new color-scheme inspired by one of the most unforgiving and captivating landscapes on Earth - the desert. This minimalist yet impactful design captures the essence of the desert's warm earthy tones, sandy beige hues, and striking pops of deep red and burnt orange, making it the perfect choice for creating a bold and exotic aesthetic in any space.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fifthtry/fastn-heroku&env[DOWNLOAD_BASE_URL]=https://raw.githubusercontent.com/fifthtry/sailing-shark-cs/main/)
-
-
-> 🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
-
-![doc-site](doc-site-example.png)
-
-
-## 🚀 Project Structure
-
-Inside of your FASTN project, you'll see the following folders and files:
-
-```
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FASTN.ftd
-├── index.ftd
-└── README.md
-```
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `fastn build`            | FASTN builder installs all `FASTN` dependencies        |
-| `fastn serve`            | Starts local dev server at available port`localhost:8000`          |
-
-
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://fastn.io/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+![desert-theme](https://user-images.githubusercontent.com/118595104/235643697-d7db0860-ca94-412b-97ec-4a22623156bd.jpg)
