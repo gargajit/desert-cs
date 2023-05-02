@@ -1,7 +1,7 @@
 -- import: fastn
 
--- fastn.package: fifthtry.github.io/sailing-shark-cs
-download-base-url: https://raw.githubusercontent.com/fifthtry/sailing-shark-cs/main
+-- fastn.package: gargajit.github.io/desert-cs
+download-base-url: https://raw.githubusercontent.com/gargajit/desert-cs/main
 
 -- fastn.dependency: fifthtry.github.io/color-doc
 
