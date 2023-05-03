@@ -5,14 +5,11 @@ download-base-url: https://raw.githubusercontent.com/gargajit/desert-cs/main
 
 
 -- fastn.dependency: fifthtry.github.io/code-block
--- fastn.dependency: fifthtry.github.io/footer
 -- fastn.dependency: fastn-community.github.io/inter-typography
 -- fastn.dependency: fastn-community.github.io/color-doc
--- fastn.dependency: fifthtry.github.io/doc-site as ds
 -- fastn.dependency: fifthtry.github.io/dark-mode-switcher
 
 
--- fastn.auto-import: ds
 -- fastn.auto-import: fastn
 -- fastn.auto-import: fifthtry.github.io/color-doc/FASTN/config
 -- fastn.auto-import: fifthtry.github.io/code-block as cb
