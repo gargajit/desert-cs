@@ -74,18 +74,17 @@ dark: #56977c
 light: #304655
 dark: #73c9a5
 
-/-- ftd.color cta-primary-border-disabled-:
-light: #304655
-dark: #f1dac0
-
 -- ftd.color cta-primary-text-:
 light: #fafefa
 dark: #402e2e
 
-
-/-- ftd.color cta-primary-text-disabled-: 
+-- ftd.color cta-primary-text-disabled-:
 light: #304655
 dark: #fff
+
+-- ftd.color cta-primary-border-disabled-:
+light: #304655
+dark: #f1dac0
 
 -- ftd.cta-colors cta-primary-:
 base: $cta-primary-base-
@@ -95,6 +94,8 @@ disabled: $cta-primary-disabled-
 focused: $cta-primary-focused-
 border: $cta-primary-border-
 text: $cta-primary-text-
+text-disabled: $cta-primary-text-disabled-
+border-disabled: $cta-primary-border-disabled-
 
 -- ftd.color cta-secondary-base-:
 light: #242930
@@ -124,6 +125,14 @@ dark: #3a3e45
 light: #ffffff
 dark: #ffffff
 
+-- ftd.color cta-secondary-text-disabled-:
+light: #304655
+dark: #fff
+
+-- ftd.color cta-secondary-border-disabled-:
+light: #304655
+dark: #f1dac0
+
 -- ftd.cta-colors cta-secondary-:
 base: $cta-secondary-base-
 hover: $cta-secondary-hover-
@@ -132,6 +141,8 @@ disabled: $cta-secondary-disabled-
 focused: $cta-secondary-focused-
 border: $cta-secondary-border-
 text: $cta-secondary-text-
+text-disabled: $cta-secondary-text-disabled-
+border-disabled: $cta-secondary-border-disabled-
 
 -- ftd.color cta-tertiary-base-:
 light: #4A6490
@@ -161,6 +172,14 @@ dark: #4e6997
 light: #ffffff
 dark: #ffffff
 
+-- ftd.color cta-tertiary-text-disabled-:
+light: #304655
+dark: #fff
+
+-- ftd.color cta-tertiary-border-disabled-:
+light: #304655
+dark: #f1dac0
+
 -- ftd.cta-colors cta-tertiary-:
 base: $cta-tertiary-base-
 hover: $cta-tertiary-hover-
@@ -169,6 +188,8 @@ disabled: $cta-tertiary-disabled-
 focused: $cta-tertiary-focused-
 border: $cta-tertiary-border-
 text: $cta-tertiary-text-
+text-disabled: $cta-tertiary-text-disabled-
+border-disabled: $cta-tertiary-border-disabled-
 
 -- ftd.color cta-danger-base-:
 light: #f9e4e1
@@ -198,6 +219,14 @@ dark: #E9968C
 light: #d84836
 dark: #d84836
 
+-- ftd.color cta-danger-text-disabled-:
+light: #304655
+dark: #fff
+
+-- ftd.color cta-danger-border-disabled-:
+light: #304655
+dark: #f1dac0
+
 -- ftd.cta-colors cta-danger-:
 base: $cta-danger-base-
 hover: $cta-danger-hover-
@@ -206,6 +235,8 @@ disabled: $cta-danger-disabled-
 focused: $cta-danger-focused-
 border: $cta-danger-border-
 text: $cta-danger-text-
+text-disabled: $cta-danger-text-disabled-
+border-disabled: $cta-danger-border-disabled-
 
 -- ftd.color accent-primary-:
 light: #ffb991 
