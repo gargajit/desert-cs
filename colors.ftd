@@ -79,11 +79,11 @@ light: #fafefa
 dark: #402e2e
 
 -- ftd.color cta-primary-text-disabled-:
-light: #304655
-dark: #fff
+light: #30465587
+dark: #ffffffd4
 
 -- ftd.color cta-primary-border-disabled-:
-light: #304655
+light: #eaedee
 dark: #f1dac0
 
 -- ftd.cta-colors cta-primary-:
